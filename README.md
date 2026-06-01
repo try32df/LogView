@@ -35,7 +35,7 @@ exit
 После загрузки проекта в свой GitHub-репозиторий выполнить:
 
 ```bash
-git clone https://github.com/USERNAME/LogView.git
+git clone https://github.com/try32df/LogView.git
 cd LogView
 ```
 
