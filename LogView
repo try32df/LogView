@@ -1,0 +1,13 @@
+#!/usr/bin/python3
+from __future__ import annotations
+
+import sys
+
+from logview_gui import main
+
+
+if __name__ == "__main__":
+    if "--check" in sys.argv:
+        print("LogView launcher: OK")
+        raise SystemExit(0)
+    main()
