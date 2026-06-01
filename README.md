@@ -33,15 +33,7 @@ exit
 
 ---
 
-## 4. Перейти в домашнюю папку пользователя
-
-```bash
-cd ~
-```
-
----
-
-## 5. Скачать проект с GitHub
+## 4. Скачать проект с GitHub
 
 ```bash
 git clone https://github.com/USERNAME/LogView.git
@@ -49,7 +41,7 @@ git clone https://github.com/USERNAME/LogView.git
 
 ---
 
-## 6. Перейти в папку проекта
+## 5. Перейти в папку проекта
 
 Важно заходить именно через `~`:
 
@@ -59,7 +51,7 @@ cd ~/LogView
 
 ---
 
-## 7. Выдать право на запуск
+## 6. Выдать право на запуск
 
 После скачивания с GitHub файл запуска может быть без права выполнения.
 
@@ -71,7 +63,7 @@ chmod +x LogView
 
 ---
 
-## 8. Запустить программу
+## 7. Запустить программу
 
 ```bash
 ./LogView
@@ -86,7 +78,6 @@ su
 apt update
 apt install python3 python3-tk git -y
 exit
-cd ~
 git clone https://github.com/USERNAME/LogView.git
 cd ~/LogView
 chmod +x LogView
